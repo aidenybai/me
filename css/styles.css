@@ -1,3 +1,13 @@
+:root {
+	--scale: calc(1/2);
+}
+
+@media (min-width: 512px) {
+	:root {
+		--scale: 1;
+	}
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 html {
@@ -8,7 +18,7 @@ html {
 
 body {
   font-family: 'Roboto';
-  padding: 20px;
+  padding: calc(20px * var(scale));
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -33,6 +43,7 @@ ul {
   margin: 0;
   padding: 0;
   border: none;
+  font-size: 20px;
 }
 
 li {
@@ -48,8 +59,8 @@ a {
 }
 
 .container {
-  padding: 55px;
-  width: 600px;
+  padding: calc(55px * var(--scale));
+  width: 512px;
   flex-direction: column;
 }
 
