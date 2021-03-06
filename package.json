@@ -1,0 +1,15 @@
+{
+  "name": "aidenybai",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "scripts": {
+    "serve": "npx @11ty/eleventy  --input=src --serve --passthroughall",
+    "build": "npx @11ty/eleventy --input=src --passthroughall"
+  },
+  "repository": "https://github.com/aidenybai/me.git",
+  "author": "Aiden Bai",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
