@@ -1,0 +1,1 @@
+# Personal Webpage [![Netlify Status](https://api.netlify.com/api/v1/badges/0790a162-e75b-422f-a722-3aaa0dd4d07f/deploy-status)](https://app.netlify.com/sites/aidenybai/deploys)
