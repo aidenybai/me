@@ -53,7 +53,8 @@ a {
   flex-direction: column;
 }
 
-.section, section {
+.section,
+section {
   flex-direction: column;
   padding-bottom: 30px;
   margin-top: -14px;
@@ -64,4 +65,8 @@ a {
   height: 2em;
   vertical-align: middle;
   border-radius: 100%;
+}
+
+html.sr .load-hidden {
+  visibility: hidden;
 }
